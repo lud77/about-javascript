@@ -7,7 +7,7 @@ This repo contains a Jupyter Notebook that details some of the practices I adopt
 
 Make sure you have Jupyter installed along with the Javascript/Node.js kernel.
 
-Clone the repo and run
+Clone the repo, enter the folder and run
 
     npm install
 
