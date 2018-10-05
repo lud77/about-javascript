@@ -12,3 +12,17 @@ Clone the repo, enter the folder and run
     npm install
 
 Then you can just open the notebook in Jupyter.
+
+
+If you get an error related to the Javascript Kernel not working, or pressing shift+enter on a code cell doesn't seem to produce any output, please verify the console output of Jupyter.
+
+Note that I've built the notebook using [this kernel](https://github.com/n-riesco/ijavascript) and, at the moment of writing this, it apparently only supports node v8.9.0. If you have nvm installed, try shutting down Jupyter and running the following:
+
+```
+nvm install v8.9.0
+nvm use v8.9.0
+
+ijsinstall --spec-path=full
+```
+
+Then run Jupyter again and load the notebook.
