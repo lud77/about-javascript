@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "highland": "^2.13.0",
     "ramda": "^0.25.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
